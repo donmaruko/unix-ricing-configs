@@ -1,0 +1,1 @@
+Based on [JaKooLit's amazing Fedora Hyprland setup scripts](https://github.com/JaKooLit/Fedora-Hyprland)
