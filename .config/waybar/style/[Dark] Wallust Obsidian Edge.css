@@ -13,8 +13,8 @@ font-feature-settings: '"zero", "ss01", "ss02", "ss03", "ss04", "ss05", "cv31"';
 }
 
 window#waybar {
-    background: black;
-	border-radius: 12px;
+    background: rgba(0, 0, 0, 0.6); /* Semi-transparent */
+    border-radius: 12px;
 }
 
 window#waybar.hidden {

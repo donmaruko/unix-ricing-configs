@@ -18,26 +18,24 @@
 "exclusive": true,
 "passthrough": false,
 "position": "top",
-"spacing": 5,
+"spacing": 12,
 "fixed-center": false,
 "ipc": true,
 "margin-top": 5,
 //"margin-bottom": 5,
-"width": 1000,
+"width": 800,
 	
-"modules-left": [
-	"clock#5", 
-	"mpris", 
-	"tray", 
-	"group/notify"
-	],
-	  
-"modules-center": ["hyprland/workspaces#kanji"], 
-	
-"modules-right": [
-	"pulseaudio#1",
-	"backlight#2", 
-	"battery"
-	],
+"modules-left": [],
+"modules-center": [
+  "clock#5",
+  "mpris",
+  "tray",
+  "group/notify",
+  "hyprland/workspaces#kanji",
+  "pulseaudio#1",
+  "backlight#2",
+  "battery"
+],
+"modules-right": [],
 
 }
