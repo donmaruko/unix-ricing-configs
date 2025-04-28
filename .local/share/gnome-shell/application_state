@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<application-state>
+  <context id="">
+    <application id="org.gnome.TextEditor.desktop" score="2" last-seen="1745766502"/>
+    <application id="org.gnome.SystemMonitor.desktop" score="8" last-seen="1745773580"/>
+    <application id="org.freedesktop.problems.applet.desktop" score="0" last-seen="0"/>
+    <application id="org.gnome.Tour.desktop" score="1" last-seen="1745366672"/>
+    <application id="org.gnome.Ptyxis.desktop" score="2547" last-seen="1745779946"/>
+    <application id="org.gnome.Maps.desktop" score="15" last-seen="1745383507"/>
+    <application id="com.mattjakeman.ExtensionManager.desktop" score="28" last-seen="1745767195"/>
+    <application id="org.gnome.tweaks.desktop" score="74" last-seen="1745766843"/>
+    <application id="org.gnome.Weather.desktop" score="1" last-seen="1745421982"/>
+    <application id="brave-browser.desktop" score="6377" last-seen="1745779983"/>
+    <application id="org.gnome.Characters.desktop" score="0" last-seen="1745555289"/>
+    <application id="org.gnome.Connections.desktop" score="3" last-seen="1745555277"/>
+    <application id="org.gnome.Rhythmbox3.desktop" score="0" last-seen="1745555303"/>
+    <application id="code.desktop" score="1966" last-seen="1745722472"/>
+    <application id="com.spotify.Client.desktop" score="62" last-seen="1745726404"/>
+    <application id="org.gnome.Software.desktop" score="41" last-seen="1745767240"/>
+    <application id="org.gnome.font-viewer.desktop" score="8" last-seen="1745766756"/>
+    <application id="org.gnome.World.PikaBackup.desktop" score="0" last-seen="1745765084"/>
+    <application id="org.gnome.Settings.desktop" score="104" last-seen="1745773586"/>
+    <application id="com.discordapp.Discord.desktop" score="2123" last-seen="1745767876"/>
+    <application id="org.freedesktop.GnomeAbrt.desktop" score="2" last-seen="1745779593"/>
+    <application id="nvidia-settings.desktop" score="8" last-seen="1745558431"/>
+    <application id="org.gnome.Extensions.desktop" score="9" last-seen="1745766887"/>
+    <application id="org.gnome.Calculator.desktop" score="0" last-seen="1745555308"/>
+    <application id="org.gnome.Calendar.desktop" score="1" last-seen="1745545521"/>
+    <application id="org.gnome.Shell.Extensions.desktop" score="3" last-seen="1745767068"/>
+    <application id="org.gnome.Loupe.desktop" score="0" last-seen="1745723290"/>
+    <application id="org.gnome.Boxes.desktop" score="9" last-seen="1745555244"/>
+    <application id="org.gnome.Nautilus.desktop" score="21" last-seen="1745766772"/>
+    <application id="org.gnome.Shell.PortalHelper.desktop" score="3" last-seen="1745594939"/>
+    <application id="org.gnome.Snapshot.desktop" score="30" last-seen="1745418908"/>
+    <application id="timeshift-gtk.desktop" score="28" last-seen="1745779912"/>
+    <application id="org.mozilla.firefox.desktop" score="10" last-seen="1745372871"/>
+    <application id="Zoom.desktop" score="989" last-seen="1745427755"/>
+    <application id="simple-scan.desktop" score="0" last-seen="1745555175"/>
+  </context>
+</application-state>

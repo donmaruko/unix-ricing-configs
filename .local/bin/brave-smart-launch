@@ -1,0 +1,7 @@
+#!/bin/bash
+
+if [ "$XDG_SESSION_TYPE" = "wayland" ]; then
+    exec brave-browser-stable --enable-features=UseOzonePlatform --ozone-platform=wayland --force-device-scale-factor=1.6 "$@"
+else
+    exec brave-browser-stable "$@"
+fi
