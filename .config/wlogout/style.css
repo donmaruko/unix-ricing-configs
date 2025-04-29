@@ -1,0 +1,53 @@
+* {
+	background-image: none;
+	box-shadow: none;
+}
+
+window {
+    background-color: rgba(0, 0, 0, 0.8); /* slight darkness */
+    border-radius: 16px;
+}
+
+button {
+    background-color: rgba(255, 255, 255, 0.05); /* nearly transparent */
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    border-radius: 12px;
+    color: #b7ddb0;
+    background-repeat: no-repeat;
+    background-position: center 30%;
+    background-size: 28%;
+    font-family: "JetBrains Mono", "Fira Code", sans-serif;
+    font-size: 1.1em;
+    padding: 20px;
+    margin: 10px;
+}
+
+button:hover {
+    background-color: rgba(255, 255, 255, 0.1); /* slightly brighter */
+    border-color: rgba(255, 255, 255, 0.3);
+    background-size: 35%;
+}
+
+#lock {
+    background-image: image(url("icons/lock.png"));
+}
+
+#logout {
+    background-image: image(url("icons/logout.png"));
+}
+
+#suspend {
+    background-image: image(url("icons/suspend.png"));
+}
+
+#hibernate {
+    background-image: image(url("icons/hibernate.png"));
+}
+
+#shutdown {
+    background-image: image(url("icons/shutdown.png"));
+}
+
+#reboot {
+    background-image: image(url("icons/reboot.png"));
+}
