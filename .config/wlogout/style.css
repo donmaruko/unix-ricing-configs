@@ -1,11 +1,16 @@
+
+@import 'colors-waybar.css';
+
 * {
 	background-image: none;
 	box-shadow: none;
 }
 
 window {
+    font-size: 16pt;
     background-color: rgba(0, 0, 0, 0.8); /* slight darkness */
     border-radius: 16px;
+    color: @foreground;
 }
 
 button {
@@ -20,12 +25,16 @@ button {
     font-size: 1.1em;
     padding: 20px;
     margin: 10px;
+    /* testing */
+    animation: gradient_f 10s ease-in infinite;
+    transition: all 0.3s cubic-bezier(.55, 0.0, .28, 1.682), box-shadow 0.2s ease-in-out, background-color 0.2s ease-in-out;
 }
 
 button:hover {
     background-color: rgba(255, 255, 255, 0.1); /* slightly brighter */
     border-color: rgba(255, 255, 255, 0.3);
     background-size: 35%;
+    color: @color13;
 }
 
 #lock {
