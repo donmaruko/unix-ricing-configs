@@ -3,9 +3,9 @@
 
 export ZSH="$HOME/.oh-my-zsh"
 
-ZSH_THEME="agnosterzak"
+ZSH_THEME="jnrowe"
 
-plugins=( 
+plugins=(
     git
     dnf
     zsh-autosuggestions
@@ -42,7 +42,17 @@ alias lla='ls -la'
 alias lt='ls --tree'
 
 alias grab="$HOME/go/bin/grab"
-alias hyprconf="cd ~/.config/hypr && ls -lah"
-alias nvidiapower="cat /proc/driver/nvidia/gpus/0000:01:00.0/power"
+alias hyprconf="cd ~/.config/hypr && l"
+alias nvidiapower="watch -n 2 cat /proc/driver/nvidia/gpus/0000:01:00.0/power"
 alias gpuwatch='watch -n 2 cat /sys/bus/pci/devices/0000:01:00.0/power/runtime_status'
+alias getgithubkey='cat ~/Documents/github_key | wl-copy'
+alias getopenaikey='cat ~/Documents/openaiapikey | wl-copy'
+
+alias nvrun='__NV_PRIME_RENDER_OFFLOAD=1 __GLX_VENDOR_LIBRARY_NAME=nvidia'
+
+# grab and mcat
+export PATH="$HOME/.cargo/bin:$PATH"
+export PATH="$HOME/.local/bin:$PATH"
+
+. "$HOME/.cargo/env"
 
