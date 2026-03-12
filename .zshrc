@@ -13,12 +13,6 @@ plugins=(
 
 source $ZSH/oh-my-zsh.sh
 
-# Display Pokemon-colorscripts piped into fastfetch
-# Project page: https://gitlab.com/phoneybadger/pokemon-colorscripts#on-other-distros-and-macos
-# Requires: pokemon-colorscripts, fastfetch (brew install on Mac)
-#pokemon-colorscripts --no-title -s -r #without fastfetch
-pokemon-colorscripts --no-title -s -r | fastfetch -c $HOME/.config/fastfetch/config-pokemon.jsonc --logo-type file-raw --logo-height 10 --logo-width 5 --logo -
-
 # fastfetch only (uncomment to use instead of pokemon)
 #fastfetch -c $HOME/.config/fastfetch/config-compact.jsonc
 
@@ -33,7 +27,7 @@ setopt appendhistory
 
 # needs lsd (brew install lsd on Mac)
 alias ls='lsd'
-alias l='ls -l'
+alias l='ls -lah'
 alias la='ls -a'
 alias lla='ls -la'
 alias lt='ls --tree'
@@ -41,14 +35,10 @@ alias lt='ls --tree'
 alias grab="$HOME/go/bin/grab"
 alias fzfview="fzf --preview='cat {}'"
 alias hunterssh="ssh -J don.suhanda95@eniac.cs.hunter.cuny.edu don.suhanda95@cslab10"
-alias claude="$HOME/.claude/local/claude"
 
 # PATH
-export PATH="$HOME/.cargo/bin:$PATH"
 export PATH="$HOME/.local/bin:$PATH"
 export PATH=~/.npm-global/bin:$PATH
-
-. "$HOME/.cargo/env"
 
 # --- mkcd: mkdir -p then cd ---
 mkcd() {
