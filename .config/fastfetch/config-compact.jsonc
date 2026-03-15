@@ -7,7 +7,6 @@
         "separator": " -> "
     },
     "modules": [
-        "break",
         {
             "type": "title",
             "keyWidth": 10,
