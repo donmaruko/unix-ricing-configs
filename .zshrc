@@ -13,8 +13,8 @@ plugins=(
 
 source $ZSH/oh-my-zsh.sh
 
-# fastfetch only (uncomment to use instead of pokemon)
-#fastfetch -c $HOME/.config/fastfetch/config-compact.jsonc
+# when you open the terminal for the first time this appears
+fastfetch -c $HOME/.config/fastfetch/config-compact.jsonc
 
 # Set-up FZF key bindings (CTRL R for fuzzy history finder)
 # Requires: fzf (brew install fzf on Mac)
@@ -32,7 +32,7 @@ alias la='ls -a'
 alias lla='ls -la'
 alias lt='ls --tree'
 
-alias grab="$HOME/go/bin/grab"
+alias grab="$HOME/.local/bin/grab"
 alias fzfview="fzf --preview='cat {}'"
 alias hunterssh="ssh -J don.suhanda95@eniac.cs.hunter.cuny.edu don.suhanda95@cslab10"
 
@@ -52,3 +52,4 @@ mkcd() {
 if [[ -f ~/.zsh_aliases ]]; then
   source ~/.zsh_aliases
 fi
+export MANPATH="$HOME/.local/share/man:$MANPATH"
