@@ -1,0 +1,44 @@
+# ~/.config tracking — cachyos branch
+# Exclude application state/profiles and any private material.
+
+# --- Browser / app profiles (large; cookies, logins, history, session tokens) ---
+discord/
+BraveSoftware/
+mozilla/
+Code - OSS/
+spotify/
+unity3d/
+
+# --- Online-accounts database (linked account identifiers/tokens) ---
+libaccounts-glib/
+
+# --- KDE Connect: device private key + pairing state (not rice) ---
+kdeconnect/
+
+# --- Audio auth cookie ---
+pulse/
+
+# --- gh: keep generic config.yml, drop account/host state ---
+gh/hosts.yml
+
+# --- Editor / session working state ---
+micro/backups/
+micro/buffers/
+session/
+*.bak
+
+# --- Claude Code session artifacts (not part of this config) ---
+.claude/
+
+# --- Opaque binary dconf dump (not human-readable/diffable) ---
+dconf/
+
+# --- Safety net: never commit private keys / auth material ---
+*.pem
+*.key
+*.crt
+*cookie*
+*.sqlite
+*.db
+*.db-wal
+*.db-shm

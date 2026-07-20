@@ -1,0 +1,9 @@
+[Libinput][10248][262][FTCS0038:00 2808:0106 Touchpad]
+PointerAccelerationProfile=1
+
+[Libinput][1165][51602][ITE Tech. Inc. ITE Device(8176) Keyboard]
+NaturalScroll=true
+
+[Libinput][4152][6200][SteelSeries SteelSeries Aerox 3 Wireless]
+NaturalScroll=true
+PointerAccelerationProfile=1
